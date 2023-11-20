@@ -2,7 +2,7 @@ let
     pkgs = import <nixpkgs> {};
 in
 pkgs.stdenv.mkDerivation {
-    pname = "claytonhickeyme";
+    pname = "tutor_engine_org";
     version = "wc1";
     src = ./.;
 
